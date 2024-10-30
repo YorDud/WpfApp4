@@ -16,7 +16,7 @@ Padding="10">
                 <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"></DropShadowEffect>
             </Border.Effect>
             <StackPanel Margin="10,10,10,10">
-                <TextBlock Text="Авторизирутесь" FontSize="30" FontWeight="Bold" Margin="0,0,0,20" FontFamily="Yu Gothic UI" TextAlignment="Center"></TextBlock>
+                <TextBlock FontSize="30" FontWeight="Bold" Margin="0,0,0,20" FontFamily="Yu Gothic UI" TextAlignment="Center"><Run Text="Автор"/><Run Language="ru-ru" Text="и"/><Run Text="зирут"/><Run Language="ru-ru" Text="й"/><Run Text="есь "/><Run Language="ru-ru" Text="тут"/></TextBlock>
                 <Grid>
                     <Button Content="Регистрация" HorizontalAlignment="Left" Margin="0,30,0,30" VerticalAlignment="Top"/>
                     <Button Content="Войти" HorizontalAlignment="Right" Margin="0,30,0,30" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFlatButton}"/>
